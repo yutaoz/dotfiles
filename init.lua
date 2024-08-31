@@ -50,3 +50,5 @@ require("nvim-tree").setup({
     dotfiles = true,
   },
 })
+
+require("lspconfig").gopls.setup({})
